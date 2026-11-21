@@ -1,8 +1,10 @@
-# BAM Statistical Modelling — R examples
+# BAM Statistical Modelling — class notes R code
 
-Runnable R code extracted from the class notes for **Statistical Modelling** (Bachelor in Applied Mathematics, IE University).
+Runnable R code extracted from the **class notes** (bookdown) for Statistical Modelling (Bachelor in Applied Mathematics, IE University).
 
-One `.R` file per chapter. Source material lives in the course `class-notes/*.Rmd` (bookdown); these scripts are the code chunks only.
+This is **not** the session/slide examples repo. For those (one folder per class session), see [iedaejin/bam-statmod-r-examples](https://github.com/iedaejin/bam-statmod-r-examples).
+
+One `.R` file per chapter. Source: course `class-notes/*.Rmd`.
 
 ## Setup
 
@@ -18,7 +20,7 @@ install.packages(c(
 From this folder in R:
 
 ```r
-setwd("path/to/bam-statmod-r-examples")
+setwd("path/to/bam-statmod-class-notes-r")
 source("_common.R")          # theme + knitr-equivalent options
 source("02-statistical-models.R")
 ```
