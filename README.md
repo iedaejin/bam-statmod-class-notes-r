@@ -20,7 +20,7 @@ install.packages(c(
 From this folder in R:
 
 ```r
-setwd("path/to/bam-statmod-class-notes-r")
+setwd("path/to/iedaejin/bam-statmod-class-notes-r")
 source("_common.R")          # theme + knitr-equivalent options
 source("02-statistical-models.R")
 ```
